@@ -1,0 +1,151 @@
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #333;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  overflow: hidden;
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-padding: 0.4em 0;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+body {
+  background-color: #bcc2ce;
+}
+
+.app {
+  text-align: center;
+  max-width: 728px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgba(247, 247, 247, 0.788);
+}
+
+main {
+  height: 80vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+button {
+  background-color: #282c34;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+button:hover,
+button:active {
+  filter: brightness(0.9);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+ul,
+li {
+  text-align: left;
+  list-style: none;
+}
+
+p {
+  max-width: 500px;
+  margin-bottom: 0;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+.user-bio {
+  display: flex;
+  align-items: center;
+}
+
+.scroll-button {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  color: white;
+}
+
+.red {
+  background: rgb(204, 53, 37);
+}
+.message-style.svelte-rb24nh.svelte-rb24nh{width:80%}form.svelte-rb24nh.svelte-rb24nh{height:8vh;position:fixed;bottom:0;background-color:rgb(57, 28, 94);width:100%;max-width:728px;display:flex;font-size:1.5rem}form.svelte-rb24nh button.svelte-rb24nh{width:20%;background-color:rgb(111, 40, 197)}.header-style.svelte-1wy70kp{background-color:rgb(111, 40, 197);height:10vh;min-height:50px;color:white;position:fixed;width:100%;max-width:728px;top:0;display:flex;align-items:center;justify-content:space-between;z-index:99;padding:10px;box-sizing:border-box}.signout-button.svelte-1wy70kp{font-size:0.8rem;padding:0.5rem 1rem;background-color:rgba(247, 247, 247, 0.788);color:rgb(111, 40, 197);font-weight:bold}.message.svelte-feygg7.svelte-feygg7{display:flex;align-items:center;margin:0;word-wrap:break-word}.message.svelte-feygg7.svelte-feygg7:last-child{margin-bottom:20px}.sent.svelte-feygg7.svelte-feygg7{flex-direction:row-reverse}.sent.svelte-feygg7 p.svelte-feygg7{color:white;background:rgb(111, 40, 197);align-self:flex-end;text-align:right}.received.svelte-feygg7 p.svelte-feygg7{background:rgb(224, 222, 224);color:black;text-align:left}.message-text.svelte-feygg7.svelte-feygg7{display:flex;flex-direction:column;align-items:flex-end}.received.svelte-feygg7 .message-text.svelte-feygg7{align-items:flex-start}time.svelte-feygg7.svelte-feygg7{color:white;font-size:0.7rem;color:#9a9a9a;margin:0 1rem}.label-style.svelte-1a46wro{color:rgb(111, 40, 197);font-size:1.3rem;font-weight:bold;margin:0.5rem 0}.content-container.svelte-1a46wro{display:flex;justify-content:center;align-items:center;flex-direction:column}.login.svelte-1a46wro{padding:0.25em 0.75em;width:90%;min-height:44px;border-radius:20px;margin:1rem 0 0;background:#6f28c5;box-shadow:0px 0px 17px 0px rgba(50, 50, 50, 0.75)}.input-style.svelte-1a46wro{line-height:1.5;width:90%;font-size:1.5rem;background:rgb(209, 209, 209);color:rgb(0, 0, 0);padding:0 10px;margin:0;border-radius:10px}
